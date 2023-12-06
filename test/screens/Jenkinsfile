@@ -1,0 +1,44 @@
+pipeline{
+    agent any
+    
+    stages{
+        stage("Adicionar um novo Produto"){
+            steps{
+                echo "========executing A========"
+            
+                }
+            }
+        }
+    stages{
+        stage("Selecionar e Adicionar a Imagem"){
+            steps{
+                echo "========executing A========"
+            
+                }
+            }
+        }
+    stages{
+        stage("Configurar o Descritivo"){
+            steps{
+                echo "========executing A========"
+            
+                }
+            }
+        }
+    stages{
+        stage("Configurar o Preço"){
+            steps{
+                echo "========executing A========"
+            
+                }
+            }
+        }
+    stages{
+        stage("Adicionar o Produto ao Inventário"){
+            steps{
+                echo "========executing A========"
+                
+            }
+        }
+    }
+}
